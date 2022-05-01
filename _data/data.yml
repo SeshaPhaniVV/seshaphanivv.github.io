@@ -1,0 +1,164 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    publications: False
+
+    # Profile information
+    name: V V Sesha Phani
+    tagline: Senior Software Development Engineer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: phani.vakicherla@dpworld.com
+    phone: +91 8919064034
+    citizenship:
+    website: seshaphanivv.github.io #do not add http://
+    linkedin: phani-vvs-465271137
+    xing: 
+    github: SeshaPhaniVV
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://drive.google.com/file/d/1qQ3_dKz9818xrYFhNkVQ7vPWgQNo6awQ/view?usp=sharing
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+      - idiom: Telugu
+        level: Native
+
+    interests:
+      - item: Sports
+        link:
+
+      - item: Reading
+        link:
+
+      - item: Travel
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Senior software engineer with 5+ years of experience skilled in developing scalable web applications from scratch. 
+      I am seeking opportunities to join a company that can help enhance my skills, strengthen my knowledge, and realize my potential. 
+      I am willing to explore a wide variety of opportunities that can help me gain perspective.
+education:
+    - degree: MS in Computer Science
+      university: University of Illinois at Chicago
+      time: 2022 - 2024
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: B.E.(Hons.) in Electrical and Electronics Engineering
+      university: Birla Institute of Technology and Science, Pilani
+      time: 2013 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Senior Software Development Engineer
+      time: 2020 - 2022
+      company: DP World, Hyderabad, India
+      details: |
+        Senior Developer responsible for requirement gathering, development, code quality and deployment.
+          - Built an end-to-end enterprise-level distributed application that handles user authentication, Rate management system getting instant rates for a route. Booking Service, Exchange rates service, Email Service, and Locations Service with zero downtime.
+          - Handled Kubernetes service communication, also set up newrelic, an app monitoring tool.
+          - Implemented CI/CD pipelines using Kubernetes and deployed them in an Azure Kubernetes cluster for the above microservices. Built a template to repurpose for future projects.
+          - Implemented a mutex-lock feature using Redis to handle race conditions in NodeJS. 
+          - Part of the interview panel responsible for hiring Software Developers.
+
+    - role: Full Stack Developer
+      time: 2017 - 2020
+      company: Reportgarden, Hyderabad, India
+      details: |
+        Full Stack Developer responsible for building end to end applications right from gathering requirement from product to deploying the final code it in AWS.
+          - Designed and implemented Worker Framework for background jobs and achieved asynchronicity and parallelism to improve latency, vastly increasing the application's throughput.
+          - Implemented event-driven architecture in PHP, using web sockets, pub-sub architecture, and Redis as a caching layer for updating UI asynchronously.
+          - Built Worker Manager on top of Worker Framework using builder pattern to leverage the event-driven architecture and handle distributed API calls effectively with minimal latency.
+          - Overall test coverage is around 92% and the 95th percentile, with a mean response time less than 150ms.
+          - Built a search engine keyword ranking tracker application and a site-auditor web crawler with features such as share of voice and page performance to store billions of rows every month. 
+          -	Built customized automatic report and dashboard features for all marketing campaign data on ruby on rails, handled their downloads using Puppeteer, and integrated marketing APIs to fill reports.
+    - role: Softtware Developmer, Intern
+      time: 2016 - 2016
+      company: Endless Robotics Private. Ltd, Hyderabad
+      details: |
+          - Worked on an embedded system written in C, and used C to HDL tools to convert program code into a hardware description language (HDL). 
+          -	Used Field Programmable Gate Array (FPGA) to implement converted code into a hardware device. 
+          -	Worked on Android application development updating the existing mobile app.
+          -	MATLAB implementation of 2-DOF robotic arm manipulators with optimized torque. 
+    - role: Softtware Developmer, Intern
+      time: 2015 - 2015
+      company: Fertilizers and Chemicals Travancore Ltd., Kerala
+      details: |
+          - Designed database schema and built a sustainable model which can extend to any new machinery added using PHP and MySQL. 
+          -	Updated existing APIs with a newer tech stack and fixed existing data latency issues by implementing Redis's caching layer and upgraded the Angular version.
+projects:
+    title: Projects
+    intro: >
+      Independent Projects.
+    assignments:
+      - title: Multi-cycle Processor Implementation in Verilog HDL 
+        link: ""
+        tagline: "Design, implementation, and testing of a 16-bit multi-cycle RISC processor using Verilog HDL. Control FSM design with the objective to minimise the number of cycles."
+    
+      - title: TopPack
+        link: "https://toppack.herokuapp.com/#/search"
+        tagline: "Built on PHP to help developers search GitHub for interesting JavaScript projects, find what libraries these projects use, show and ability to import the most popular ones. Dockerized the application and deployed it in Heroku using Postgres as the database."
+
+      - title: Hexaland
+        link: "https://github.com/SeshaPhaniVV/hexaland"
+        tagline: "Built on PHP on top of Slim Framework. It has mysql, redis and php_myadmin setup. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation. It also uses the Monolog logger."
+
+      - title: WordamentSolver
+        link: ""
+        tagline: "Built on Nodejs to crack the Wordament game and used Trie data structure to store dictionary words and the DFS traversal algorithm to traverse the grid. Used image reading tools, similar to Tesseract, and a robot library to solve the puzzle."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Web Development
+        level: 90%
+
+      - name: Javascript & NodeJs
+        level: 90%
+
+      - name: PHP
+        level: 90%
+
+      - name: PostgresQL, MySQL, MongoDB
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Vue JS
+        level: 75%
+
+      - name: Angular JS
+        level: 75%
+
+footer: >
